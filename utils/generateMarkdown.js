@@ -1,19 +1,19 @@
 const fs = require("fs");
 
-const writeFile = fileContent => {
-   return new Promise((resolve, reject) => {
-      fs.writeFile("./dist/README.md", fileContent, err => {
-         if (err) {
-            reject(err);
-            return;
-         }
-         resolve({
-            ok: true,
-            message: "File created!"
-         });
-      });
-   });
-};
+// const writeFile = fileContent => {
+//    return new Promise((resolve, reject) => {
+//       fs.writeFile("./dist/README.md", fileContent, err => {
+//          if (err) {
+//             reject(err);
+//             return;
+//          }
+//          resolve({
+//             ok: true,
+//             message: "File created!"
+//          });
+//       });
+//    });
+// };
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -29,10 +29,9 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
+  return `# ${data.projectName}
 `;
 }
 
-module.exports = { writeFile };
+//module.exports = { writeFile };
 module.exports = generateMarkdown;

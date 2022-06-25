@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 //const fs = require("fs");
 
 const promptReadme = () => {
@@ -128,7 +130,20 @@ const promptReadme = () => {
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileContent) { 
+   return new Promise((resolve, reject) => {
+      fs.writeFile("./dist/README.md", generateMarkdown(fileContent), err => {
+         if (err) {
+            reject(err);
+            return;
+         }
+         resolve({
+            ok: true,
+            message: "File created!"
+         });
+      });
+   });
+}
 
 
 
@@ -136,4 +151,6 @@ function writeToFile(fileName, data) { }
 promptReadme()
    .then(readmeData => {
       console.log(readmeData);
+      writeToFile(readmeData);
+      //return generateMarkdown(readmeData);
    });
