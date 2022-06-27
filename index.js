@@ -9,6 +9,30 @@ const promptReadme = () => {
    return inquirer.prompt([
       {
          type: "input",
+         name: "github",
+         message: "What is your GitHub Username? (Required)",
+         validate: githubInput => {
+            if (githubInput) {
+               return true;
+            } else {
+               console.log("Please enter your GitHub Username!");
+            }
+         }
+      },
+      {
+         type: "input",
+         name: "repository",
+         message: "What is the name of your project's GitHub repository? (Required)",
+         validate: repository => {
+            if (repository) {
+               return true;
+            } else {
+               console.log("Please enter the name of your project's GitHub repository!");
+            }
+         }
+      },
+      {
+         type: "input",
          name: "projectName",
          message: "What is the name or title of your project? (Required)",
          validate: projectNameInput => {
