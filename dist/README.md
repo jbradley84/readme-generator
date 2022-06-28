@@ -1,15 +1,15 @@
 
-  # brad
-  ![License badge](https://img.shields.io/badge/license-GNU-blue)
+  # README Generator
+  ![License badge](https://img.shields.io/badge/license-Apache-blue)
 
 
   ### Table of Contents
-  - [Description](https://github.com/jbradley84/weather-dashboard#description)
-  - [Installation](https://github.com/jbradley84/weather-dashboard#installation)
-  - [Usage](https://github.com/jbradley84/weather-dashboard#usage)
-  - [Contributing](https://github.com/jbradley84/weather-dashboard#contributing)
-  - [Tests](https://github.com/jbradley84/weather-dashboard#tests)
-  - [Questions?](https://github.com/jbradley84/weather-dashboard#questions?)
+  - [Description](https://github.com/jbradley84/readme-generator#description)
+  - [Installation](https://github.com/jbradley84/readme-generator#installation)
+  - [Usage](https://github.com/jbradley84/readme-generator#usage)
+  - [Contributing](https://github.com/jbradley84/readme-generator#contributing)
+  - [Tests](https://github.com/jbradley84/readme-generator#tests)
+  - [Questions?](https://github.com/jbradley84/readme-generator#questions?)
 
   ## Description
 
@@ -37,7 +37,7 @@
 
   ## Questions?
 
-  For questions on or support regarding brad, you can contact me via [GitHub]() or utbradley84@yahoo.com.
+  For questions on or support regarding README Generator, you can contact me via [GitHub]() or utbradley84@yahoo.com.
 
   ### License 
   
