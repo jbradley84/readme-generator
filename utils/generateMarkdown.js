@@ -12,7 +12,7 @@ const renderLicenseLink = () => {
     licenseLink = "a";
   } else if (data.license === "ISC License") {
     licenseLink = "b";
-  } else if (data.license === "GNU GPLv3") {
+  } else if (data.license === "GNU") {
     licenseLink = "c";
   } else {
     licenseLink = "d";

@@ -177,7 +177,7 @@ const promptReadme = () => {
             type: "list",
             name: "license",
             message: "Choose a licesne to add to your project.",
-            choices: ["MIT License", "ISC License", "GNU GPLv3", "Apache License 2.0"]
+            choices: ["MIT", "ISC", "GNU", "Apache"]
         }        
     ])
 };
