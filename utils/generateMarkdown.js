@@ -2,7 +2,7 @@ const fs = require("fs");
 
 
 // create the motivation section
-function generateMotivation(data) {
+const generateMotivation = data => {
    if (!data.motivation) {
       return "";
    }
@@ -14,7 +14,7 @@ function generateMotivation(data) {
 }
 
 // create the solution section
-function generateSolution(data) {
+const generateSolution = data => {
    if (!data.solution) {
       return "";
    }
@@ -26,7 +26,7 @@ function generateSolution(data) {
 }
 
 // create the link section
-function generateLink(data) {
+const generateLink = data => {
    if (!data.link) {
       return "";
    }
@@ -38,7 +38,7 @@ function generateLink(data) {
 }
 
 // create the contributors section
-function generateContributors(data) {
+const generateContributors = data => {
    if (!data.contributorsList) {
       return "";
    }
@@ -48,6 +48,65 @@ function generateContributors(data) {
    ${data.contributorsList}
    `
 }
+
+
+
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  return `
+  # ${data.projectName}
+  ![License badge](https://img.shields.io/badge/license-${data.license}-blue)
+
+
+  ### Table of Contents
+  - [Description](https://github.com/${data.github}/${data.repository}/tree/develop/dist#description)
+  - [Installation](https://github.com/${data.github}/${data.repository}/tree/develop/dist#installation)
+  - [Usage](https://github.com/${data.github}/${data.repository}/tree/develop/dist#usage)
+  - [Contributing](https://github.com/${data.github}/${data.repository}/tree/develop/dist#contributing)
+  - [Tests](https://github.com/${data.github}/${data.repository}/tree/develop/dist#tests)
+  - [Questions?](https://github.com/${data.github}/${data.repository}/tree/develop/dist#questions?)
+
+  ## Description
+
+  ${data.description}
+  ${generateMotivation(data)}
+  ${generateSolution(data)}
+  ${generateLink(data)}
+
+  #### Built With
+
+  ${data.tech}
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## Contributing
+
+  ${generateContributors(data)}
+  #### How you can contribute to this project:
+  
+  ${data.contribute}
+
+  ## Tests
+
+  ${data.tests}
+
+  ## Questions?
+
+  For questions on or support regarding ${data.projectName}, you can contact me via [GitHub](https://github.com/${data.github}) or ${data.email}.
+
+  ### License 
+  
+`;
+}
+
+module.exports = generateMarkdown;
+
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -70,57 +129,3 @@ const renderLicenseLink = () => {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.projectName}
-  ![License badge](https://img.shields.io/badge/license-${data.license}-blue)
-
-
-  ### Table of Contents
-  - [Description](https://github.com/${data.github}/${data.repository}/tree/develop/dist#description)
-  - [Installation](https://github.com/${data.github}/${data.repository}/tree/develop/dist#installation)
-  - [Usage](https://github.com/${data.github}/${data.repository}/tree/develop/dist#usage)
-  - [Contributing](https://github.com/${data.github}/${data.repository}/tree/develop/dist#contributing)
-  - [Tests](https://github.com/${data.github}/${data.repository}/tree/develop/dist#tests)
-  - [Questions?](https://github.com/${data.github}/${data.repository}/tree/develop/dist#questions?)
-
-  ## Description
-
-  ${data.description}
-  ${generateMotivation}
-  ${generateSolution}
-  ${generateLink}
-
-  #### Built With
-
-  ${data.tech}
-
-  ## Installation
-
-  ${data.installation}
-
-  ## Usage
-
-  ${data.usage}
-
-  ## Contributing
-
-  ${generateContributors}
-  ${data.contribute}
-
-  ## Tests
-
-  ${data.tests}
-
-  ## Questions?
-
-  For questions on or support regarding ${data.projectName}, you can contact me via [GitHub](https://github.com/${data.github}) or ${data.email}.
-
-  ### License 
-  
-`;
-}
-
-module.exports = generateMarkdown;

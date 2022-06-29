@@ -1,6 +1,6 @@
 
   # README Generator
-  ![License badge](https://img.shields.io/badge/license-ISC-blue)
+  ![License badge](https://img.shields.io/badge/license-MIT-blue)
 
 
   ### Table of Contents
@@ -13,37 +13,18 @@
 
   ## Description
 
-  It is a project.
-  function generateMotivation(data) {
-   if (!data.motivation) {
-      return "";
-   }
-   return `
+  A command-line application that prompts users with project realated questions, which then generates a profession quality README doc.
+  
    #### Motivation
 
-   ${data.motivation}
-   `
-}
-  function generateSolution(data) {
-   if (!data.solution) {
-      return "";
-   }
-   return `
+   I wanted to streamline the process of writing README docs, both for time spent writing the docs, and consistency of document format.
+   
+  
    #### What this project solves for:
 
-   ${data.solution}
-   `
-}
-  function generateLink(data) {
-   if (!data.link) {
-      return "";
-   }
-   return `
-   #### Deployed Site:
-
-   ${data.link}
-   `
-}
+   The README Generator takes all the guesswork out of creating a professional quality README doc.
+   
+  
 
   #### Built With
 
@@ -51,7 +32,7 @@
 
   ## Installation
 
-  They can't
+  The can't
 
   ## Usage
 
@@ -59,16 +40,13 @@
 
   ## Contributing
 
-  function generateContributors(data) {
-   if (!data.contributorsList) {
-      return "";
-   }
-   return `
+  
    #### A special thanks to the following contributor(s):
 
-   ${data.contributorsList}
-   `
-}
+   https://github.com/abbygraves
+   
+  #### How you can contribute to this project:
+  
   They can't
 
   ## Tests
