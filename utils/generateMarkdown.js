@@ -1,6 +1,54 @@
 const fs = require("fs");
 
 
+// create the motivation section
+function generateMotivation(data) {
+   if (!data.motivation) {
+      return "";
+   }
+   return `
+   #### Motivation
+
+   ${data.motivation}
+   `
+}
+
+// create the solution section
+function generateSolution(data) {
+   if (!data.solution) {
+      return "";
+   }
+   return `
+   #### What this project solves for:
+
+   ${data.solution}
+   `
+}
+
+// create the link section
+function generateLink(data) {
+   if (!data.link) {
+      return "";
+   }
+   return `
+   #### Deployed Site:
+
+   ${data.link}
+   `
+}
+
+// create the contributors section
+function generateContributors(data) {
+   if (!data.contributorsList) {
+      return "";
+   }
+   return `
+   #### A special thanks to the following contributor(s):
+
+   ${data.contributorsList}
+   `
+}
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -31,20 +79,23 @@ function generateMarkdown(data) {
 
 
   ### Table of Contents
-  - [Description](https://github.com/${data.github}/${data.repository}#description)
-  - [Installation](https://github.com/${data.github}/${data.repository}#installation)
-  - [Usage](https://github.com/${data.github}/${data.repository}#usage)
-  - [Contributing](https://github.com/${data.github}/${data.repository}#contributing)
-  - [Tests](https://github.com/${data.github}/${data.repository}#tests)
-  - [Questions?](https://github.com/${data.github}/${data.repository}#questions?)
+  - [Description](https://github.com/${data.github}/${data.repository}/tree/develop/dist#description)
+  - [Installation](https://github.com/${data.github}/${data.repository}/tree/develop/dist#installation)
+  - [Usage](https://github.com/${data.github}/${data.repository}/tree/develop/dist#usage)
+  - [Contributing](https://github.com/${data.github}/${data.repository}/tree/develop/dist#contributing)
+  - [Tests](https://github.com/${data.github}/${data.repository}/tree/develop/dist#tests)
+  - [Questions?](https://github.com/${data.github}/${data.repository}/tree/develop/dist#questions?)
 
   ## Description
 
-  ${data.projectDescription}
+  ${data.description}
+  ${generateMotivation}
+  ${generateSolution}
+  ${generateLink}
 
-  ### Built With
+  #### Built With
 
-  ${data.projectTech}
+  ${data.tech}
 
   ## Installation
 
@@ -56,15 +107,16 @@ function generateMarkdown(data) {
 
   ## Contributing
 
+  ${generateContributors}
   ${data.contribute}
 
   ## Tests
 
-  ${data.projectTests}
+  ${data.tests}
 
   ## Questions?
 
-  For questions on or support regarding ${data.projectName}, you can contact me via [GitHub]() or ${data.email}.
+  For questions on or support regarding ${data.projectName}, you can contact me via [GitHub](https://github.com/${data.github}) or ${data.email}.
 
   ### License 
   

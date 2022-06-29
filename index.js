@@ -45,10 +45,10 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "projectDescription",
+            name: "description",
             message: "Provide a short description of your project. (Required)",
-            validate: projectDescriptionInput => {
-                if (projectDescriptionInput) {
+            validate: descriptionInput => {
+                if (descriptionInput) {
                     return true;
                 } else {
                     console.log("Please provide a short description of your project!");
@@ -57,10 +57,10 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "projectTech",
+            name: "tech",
             message: "What technologies did you use to build this project? (Required)",
-            validate: projectTechInput => {
-                if (projectTechInput) {
+            validate: techInput => {
+                if (techInput) {
                     return true;
                 } else {
                     console.log("Please input a list of the technologies you used to build the project!");
@@ -69,7 +69,7 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "projectWhy",
+            name: "motivation",
             message: "What motivated you to work on this project?",
         },
         {
@@ -80,21 +80,21 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "problemSolution",
+            name: "solution",
             message: "What solution does your project offer to the problem?",
             when: ({ confirmProblem }) => confirmProblem
         },
         {
             type: "confirm",
-            name: "projectSite",
+            name: "confirmSite",
             message: "Has your project been deployed to a live page?",
             default: true
         },
         {
             type: "input",
-            name: "deployedSite",
+            name: "site",
             message: "Provide a link to your deployed project site.",
-            when: ({ projectSite }) => projectSite
+            when: ({ confirmSite }) => confirmSite
         },
         {
             type: "input",
@@ -151,10 +151,10 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "projectTests",
+            name: "tests",
             message: "Please provide code examples with instruction on how to test your project. (Required)",
-            validate: projectTestsInput => {
-                if (projectTestsInput) {
+            validate: testsInput => {
+                if (testsInput) {
                     return true;
                 } else {
                     console.log("Please provide project test code!");
