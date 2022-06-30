@@ -4,9 +4,9 @@
   ### Table of Contents
   - [Description](https://github.com/jbradley84/readme-generator/blob/main/README.md#description)
   - [Installation](https://github.com/jbradley84/readme-generator/blob/main/README.md#installation)
-  - [Usage](https://github.com/jbradley84/readme-generator/tree/blob/README.md#usage)
+  - [Usage](https://github.com/jbradley84/readme-generator/blob/main/README.md#usage)
   - [Contributing](https://github.com/jbradley84/readme-generator/blob/main/README.md#contributing)
-  - [Tests](https://github.com/jbradley84/readme-generator/tree/blob/README.md#tests)
+  - [Tests](https://github.com/jbradley84/readme-generator/blob/main/README.md#tests)
   - [Questions](https://github.com/jbradley84/readme-generator/blob/main/README.md#questions)
 
   ## Description
