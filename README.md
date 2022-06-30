@@ -1,68 +1,69 @@
-# 09 Node.js: Professional README Generator
+# README Generator
+  ![License badge](https://img.shields.io/badge/license-MIT-blue)
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+  ### Table of Contents
+  - [Description](https://github.com/jbradley84/readme-generator/tree/main/dist#description)
+  - [Installation](https://github.com/jbradley84/readme-generator/tree/main/dist#installation)
+  - [Usage](https://github.com/jbradley84/readme-generator/tree/main/dist#usage)
+  - [Contributing](https://github.com/jbradley84/readme-generator/tree/main/dist#contributing)
+  - [Tests](https://github.com/jbradley84/readme-generator/tree/main/dist#tests)
+  - [Questions](https://github.com/jbradley84/readme-generator/tree/main/dist#questions)
 
-You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+  ## Description
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Guide to a Professional README](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) as a reminder of everything that a high-quality, professional README should contain. 
+  A command-line app that prompts users to answer questions pertaining to a project, which then generates a professional quality README document.
+  
+   #### Motivation
 
-The application will be invoked by using the following command:
+   I wanted to streamline the process of writing README documents for my projects. I also wanted my README documents to have a professional look, with consistency from project to project.
+   
+  
+   #### What this project solves for:
 
-```
-node index.js
-```
+   README Generator takes the guesswork out of creating a professional README document. When used regularly, it helps to give users’ GitHub projects a thoughtfully designed, uniform appearance. 
+   
+  
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit 2.2.4: Screencastify Tutorial in Module 2 of the **prework** as a refresher on how to record video from your computer. You’ll need to submit a link to the video **and** add it to the README of your project.
+  #### Built With
 
-Before you start, clone the [starter code](https://github.com/coding-boot-camp/potential-enigma).
+  JS, NodeJS, Inquirer
 
-## User Story
+  ## Installation
 
-```
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+  To install the app, download the files or clone the repo.
 
-## Acceptance Criteria
+  ## Usage
 
-```
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
+  To use the app, you must have both NodeJS and Inquirer installed on your device. Open your terminal and access the root directory of the application. Enter “node index.js” into the command line, then follow the command line prompts, inputting project related information as applicable. Your professional README document will be saved to the app’s “dist” folder when complete.
 
-## Getting Started
+  ## Contributing
 
-Here are some guidelines to help you get started:
+  
+  #### How you can contribute to this project:
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+  If you would like to contribute to this project, please create a pull request.
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+  ## Questions?
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or j.bradleywhittington@gmail.com.
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+  ## License 
 
+  
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
 
-## Review
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
 
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.
