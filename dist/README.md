@@ -1,6 +1,6 @@
 
   # README Generator
-  ![License badge](https://img.shields.io/badge/license-GNU-blue)(https://github.com/jbradley84/readme-generator/tree/develop/dist#license)
+  ![License badge](https://img.shields.io/badge/license-GNU-blue/endpoint?url=<https://github.com/jbradley84/readme-generator/tree/develop/dist#license>)
 
 
   ### Table of Contents
