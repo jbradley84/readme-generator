@@ -124,7 +124,7 @@ function generateMarkdown(data) {
   - [Usage](https://github.com/${data.github}/${data.repository}/tree/develop/dist#usage)
   - [Contributing](https://github.com/${data.github}/${data.repository}/tree/develop/dist#contributing)
   - [Tests](https://github.com/${data.github}/${data.repository}/tree/develop/dist#tests)
-  - [Questions?](https://github.com/${data.github}/${data.repository}/tree/develop/dist#questions?)
+  - [Questions?](https://github.com/${data.github}/${data.repository}/tree/develop/dist#questions)
 
 
   ## Description

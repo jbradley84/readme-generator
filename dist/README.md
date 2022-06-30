@@ -9,7 +9,7 @@
   - [Usage](https://github.com/jbradley84/readme-generator/tree/develop/dist#usage)
   - [Contributing](https://github.com/jbradley84/readme-generator/tree/develop/dist#contributing)
   - [Tests](https://github.com/jbradley84/readme-generator/tree/develop/dist#tests)
-  - [Questions?](https://github.com/jbradley84/readme-generator/tree/develop/dist#questions?)
+  - [Questions?](https://github.com/jbradley84/readme-generator/tree/develop/dist#questions)
 
 
   ## Description
