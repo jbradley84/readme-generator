@@ -117,7 +117,6 @@ function generateMarkdown(data) {
   # ${data.projectName}
   ![License badge](https://img.shields.io/badge/license-${data.license}-blue)
 
-
   ### Table of Contents
   - [Description](https://github.com/${data.github}/${data.repository}/tree/main/dist#description)
   - [Installation](https://github.com/${data.github}/${data.repository}/tree/main/dist#installation)
@@ -125,7 +124,6 @@ function generateMarkdown(data) {
   - [Contributing](https://github.com/${data.github}/${data.repository}/tree/main/dist#contributing)
   - [Tests](https://github.com/${data.github}/${data.repository}/tree/main/dist#tests)
   - [Questions](https://github.com/${data.github}/${data.repository}/tree/main/dist#questions)
-
 
   ## Description
 
@@ -138,16 +136,13 @@ function generateMarkdown(data) {
 
   ${data.tech}
 
-
   ## Installation
 
   ${data.installation}
 
-
   ## Usage
 
   ${data.usage}
-
 
   ## Contributing
 
@@ -156,20 +151,18 @@ function generateMarkdown(data) {
 
   ${data.contribute}
 
-
   ## Tests
 
   ${data.tests}
-
 
   ## Questions?
 
   For questions on or support regarding ${data.projectName}, you can contact me via [GitHub](https://github.com/${data.github}) or ${data.email}.
 
-
-  ### License 
+  ## License 
 
   ${generateLicense(data)}
+
 `;
 }
 

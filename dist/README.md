@@ -1,7 +1,6 @@
 
   # README Generator
-  ![License badge](https://img.shields.io/badge/license-Apache-blue)
-
+  ![License badge](https://img.shields.io/badge/license-MIT-blue)
 
   ### Table of Contents
   - [Description](https://github.com/jbradley84/readme-generator/tree/main/dist#description)
@@ -11,61 +10,67 @@
   - [Tests](https://github.com/jbradley84/readme-generator/tree/main/dist#tests)
   - [Questions](https://github.com/jbradley84/readme-generator/tree/main/dist#questions)
 
-
   ## Description
 
-  kdjjflak;
+  kdjlfjadf
   
    #### Motivation
 
-   dkjfa;dslkj
+   dklf;jadkj
    
   
    #### What this project solves for:
 
-   adjlkfajld;a
+   lka;fjdskja
    
   
 
   #### Built With
 
-  dkjfdal;s
-
+  adjlkfdasj
 
   ## Installation
 
-  dkjla;j
-
+  jakfl;j
 
   ## Usage
 
-  djkfl;akj
-
+  dklasj;
 
   ## Contributing
 
   
   #### How you can contribute to this project:
 
-  dasjlkdfskj;l
-
+  afdsj;lfjlf
 
   ## Tests
 
-  dkljfdas;lkj
-
+  ajdflks;j
 
   ## Questions?
 
-  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or dkaljd;lk.
+  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or dfajk;ld.
 
-
-  ### License 
+  ## License 
 
   
-      Apache License
-      Version 2.0, January 2004
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
 
-      To view full text:
-      [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.
     
+
