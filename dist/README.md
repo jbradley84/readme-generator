@@ -12,45 +12,45 @@
 
   ## Description
 
-  kdjlfjadf
+  A command-line app that prompts users to answer questions pertaining to a project, which then generates a professional quality README document.
   
    #### Motivation
 
-   dklf;jadkj
+   I wanted to streamline the process of writing README documents for my projects. I also wanted my README documents to have a professional look, with consistency from project to project.
    
   
    #### What this project solves for:
 
-   lka;fjdskja
+   README Generator takes the guesswork out of creating a professional README document. When used regularly, it helps to give users’ GitHub projects a thoughtfully designed, uniform appearance. 
    
   
 
   #### Built With
 
-  adjlkfdasj
+  JS, NodeJS, Inquirer
 
   ## Installation
 
-  jakfl;j
+  To install the app, download the files or clone the repo.
 
   ## Usage
 
-  dklasj;
+  To use the app, you must have both NodeJS and Inquirer installed on your device. Open your terminal and access the root directory of the application. Enter “node index.js” into the command line, then follow the command line prompts, inputting project related information as applicable. Your professional README document will be saved to the app’s “dist” folder when complete.
 
   ## Contributing
 
   
   #### How you can contribute to this project:
 
-  afdsj;lfjlf
+  If you would like to contribute to this project, please create a pull request.
 
   ## Tests
 
-  ajdflks;j
+  Examples…tests…
 
   ## Questions?
 
-  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or dfajk;ld.
+  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or j.bradleywhittington@gmail.com.
 
   ## License 
 

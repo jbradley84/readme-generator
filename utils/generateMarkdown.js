@@ -95,16 +95,16 @@ const generateLicense = data => {
       Everyone is permitted to copy and distribute verbatim copies
       of this license document, but changing it is not allowed.
 
-      To view full text:
-      [https://www.gnu.org/licenses/gpl-3.0.txt](https://www.gnu.org/licenses/gpl-3.0.txt)
+      To view full text visit:
+      https://www.gnu.org/licenses/gpl-3.0.txt
     `
    } else {
       return `
       Apache License
       Version 2.0, January 2004
 
-      To view full text:
-      [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+      To view full text visit:
+      https://www.apache.org/licenses/LICENSE-2.0.txt
     `
    }
 }

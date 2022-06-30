@@ -199,5 +199,4 @@ promptReadme()
     .then(readmeData => {
         console.log(readmeData);
         writeToFile(readmeData);
-        //return generateMarkdown(readmeData);
     });
