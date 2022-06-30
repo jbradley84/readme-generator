@@ -98,11 +98,6 @@ const promptReadme = () => {
         },
         {
             type: "input",
-            name: "projectSnip",
-            message: "Provide a link to a screenshot of your project."
-        },
-        {
-            type: "input",
             name: "installation",
             message: "How can users install your application? (Required)",
             validate: installationInput => {
