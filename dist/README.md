@@ -1,6 +1,6 @@
 
   # README Generator
-  ![License badge](https://img.shields.io/badge/license-GNU-blue)
+  ![License badge](https://img.shields.io/badge/license-Apache-blue)
 
 
   ### Table of Contents
@@ -9,7 +9,7 @@
   - [Usage](https://github.com/jbradley84/readme-generator/tree/develop/dist#usage)
   - [Contributing](https://github.com/jbradley84/readme-generator/tree/develop/dist#contributing)
   - [Tests](https://github.com/jbradley84/readme-generator/tree/develop/dist#tests)
-  - [Questions?](https://github.com/jbradley84/readme-generator/tree/develop/dist#questions)
+  - [Questions](https://github.com/jbradley84/readme-generator/tree/develop/dist#questions)
 
 
   ## Description
@@ -47,7 +47,7 @@
   
   #### How you can contribute to this project:
 
-  To install the app, download the files or clone the repo.
+  If you would like to contribute to this project, please create a pull request.
 
 
   ## Tests
@@ -63,14 +63,9 @@
   ### License 
 
   
-      GNU GENERAL PUBLIC LICENSE
-      Version 2, June 1991
-
-      Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
-      51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-      Everyone is permitted to copy and distribute verbatim copies
-      of this license document, but changing it is not allowed.
+      Apache License
+      Version 2.0, January 2004
 
       To view full text:
-      https://www.gnu.org/licenses/gpl-3.0.txt
+      https://www.apache.org/licenses/LICENSE-2.0.txt
     
