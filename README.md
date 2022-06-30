@@ -2,12 +2,12 @@
   ![License badge](https://img.shields.io/badge/license-MIT-blue)
 
   ### Table of Contents
-  - [Description](https://github.com/jbradley84/readme-generator/tree/main/dist#description)
-  - [Installation](https://github.com/jbradley84/readme-generator/tree/main/dist#installation)
-  - [Usage](https://github.com/jbradley84/readme-generator/tree/main/dist#usage)
-  - [Contributing](https://github.com/jbradley84/readme-generator/tree/main/dist#contributing)
-  - [Tests](https://github.com/jbradley84/readme-generator/tree/main/dist#tests)
-  - [Questions](https://github.com/jbradley84/readme-generator/tree/main/dist#questions)
+  - [Description](https://github.com/jbradley84/readme-generator/blob/main/README.md#description)
+  - [Installation](https://github.com/jbradley84/readme-generator/blob/main/README.md#installation)
+  - [Usage](https://github.com/jbradley84/readme-generator/tree/blob/README.md#usage)
+  - [Contributing](https://github.com/jbradley84/readme-generator/blob/main/README.md#contributing)
+  - [Tests](https://github.com/jbradley84/readme-generator/tree/blob/README.md#tests)
+  - [Questions](https://github.com/jbradley84/readme-generator/blob/main/README.md#questions)
 
   ## Description
 
