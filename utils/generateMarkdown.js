@@ -96,7 +96,7 @@ const generateLicense = data => {
       of this license document, but changing it is not allowed.
 
       To view full text:
-      https://www.gnu.org/licenses/gpl-3.0.txt
+      [https://www.gnu.org/licenses/gpl-3.0.txt](https://www.gnu.org/licenses/gpl-3.0.txt)
     `
    } else {
       return `
@@ -104,7 +104,7 @@ const generateLicense = data => {
       Version 2.0, January 2004
 
       To view full text:
-      https://www.apache.org/licenses/LICENSE-2.0.txt
+      [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
     `
    }
 }
