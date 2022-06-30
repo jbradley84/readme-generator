@@ -1,6 +1,6 @@
 
   # README Generator
-  ![License badge](https://img.shields.io/badge/license-GNU-blue)
+  ![License badge](https://img.shields.io/badge/license-Apache-blue)
 
 
   ### Table of Contents
@@ -14,32 +14,32 @@
 
   ## Description
 
-  dkajdf;lj
+  kdjjflak;
   
    #### Motivation
 
-   dkfjadlk;j
+   dkjfa;dslkj
    
   
    #### What this project solves for:
 
-   djkafdj;
+   adjlkfajld;a
    
   
 
   #### Built With
 
-  dakfadslj
+  dkjfdal;s
 
 
   ## Installation
 
-  kjasfldsj
+  dkjla;j
 
 
   ## Usage
 
-  fdakjdjkl;
+  djkfl;akj
 
 
   ## Contributing
@@ -47,30 +47,25 @@
   
   #### How you can contribute to this project:
 
-  dksfa;lk
+  dasjlkdfskj;l
 
 
   ## Tests
 
-  adjkdslka;j
+  dkljfdas;lkj
 
 
   ## Questions?
 
-  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or dkljd;ja.
+  For questions on or support regarding README Generator, you can contact me via [GitHub](https://github.com/jbradley84) or dkaljd;lk.
 
 
   ### License 
 
   
-      GNU GENERAL PUBLIC LICENSE
-      Version 2, June 1991
-
-      Copyright (C) 1989, 1991 Free Software Foundation, Inc.,
-      51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
-      Everyone is permitted to copy and distribute verbatim copies
-      of this license document, but changing it is not allowed.
+      Apache License
+      Version 2.0, January 2004
 
       To view full text:
-      [https://www.gnu.org/licenses/gpl-3.0.txt](https://www.gnu.org/licenses/gpl-3.0.txt)
+      [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
     
