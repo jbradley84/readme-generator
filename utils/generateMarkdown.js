@@ -115,7 +115,7 @@ const generateLicense = data => {
 function generateMarkdown(data) {
    return `
   # ${data.projectName}
-  ![License badge](https://img.shields.io/badge/license-${data.license}-blue/endpoint?url=<https://github.com/${data.github}/${data.repository}/tree/develop/dist#license>)
+  ![License badge](https://img.shields.io/badge/license-${data.license}-blue)
 
 
   ### Table of Contents

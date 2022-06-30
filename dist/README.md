@@ -1,6 +1,6 @@
 
   # README Generator
-  ![License badge](https://img.shields.io/badge/license-GNU-blue/endpoint?url=<https://github.com/jbradley84/readme-generator/tree/develop/dist#license>)
+  ![License badge](https://img.shields.io/badge/license-GNU-blue)
 
 
   ### Table of Contents
@@ -47,7 +47,7 @@
   
   #### How you can contribute to this project:
 
-  If you would like to contribute to this project, please create a pull request.
+  To install the app, download the files or clone the repo.
 
 
   ## Tests
