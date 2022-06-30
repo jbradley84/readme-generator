@@ -119,12 +119,12 @@ function generateMarkdown(data) {
 
 
   ### Table of Contents
-  - [Description](https://github.com/${data.github}/${data.repository}/tree/develop/dist#description)
-  - [Installation](https://github.com/${data.github}/${data.repository}/tree/develop/dist#installation)
-  - [Usage](https://github.com/${data.github}/${data.repository}/tree/develop/dist#usage)
-  - [Contributing](https://github.com/${data.github}/${data.repository}/tree/develop/dist#contributing)
-  - [Tests](https://github.com/${data.github}/${data.repository}/tree/develop/dist#tests)
-  - [Questions](https://github.com/${data.github}/${data.repository}/tree/develop/dist#questions)
+  - [Description](https://github.com/${data.github}/${data.repository}/tree/main/dist#description)
+  - [Installation](https://github.com/${data.github}/${data.repository}/tree/main/dist#installation)
+  - [Usage](https://github.com/${data.github}/${data.repository}/tree/main/dist#usage)
+  - [Contributing](https://github.com/${data.github}/${data.repository}/tree/main/dist#contributing)
+  - [Tests](https://github.com/${data.github}/${data.repository}/tree/main/dist#tests)
+  - [Questions](https://github.com/${data.github}/${data.repository}/tree/main/dist#questions)
 
 
   ## Description

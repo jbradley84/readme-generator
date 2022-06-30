@@ -4,12 +4,12 @@
 
 
   ### Table of Contents
-  - [Description](https://github.com/jbradley84/readme-generator/tree/develop/dist#description)
-  - [Installation](https://github.com/jbradley84/readme-generator/tree/develop/dist#installation)
-  - [Usage](https://github.com/jbradley84/readme-generator/tree/develop/dist#usage)
-  - [Contributing](https://github.com/jbradley84/readme-generator/tree/develop/dist#contributing)
-  - [Tests](https://github.com/jbradley84/readme-generator/tree/develop/dist#tests)
-  - [Questions](https://github.com/jbradley84/readme-generator/tree/develop/dist#questions)
+  - [Description](https://github.com/jbradley84/readme-generator/tree/main/dist#description)
+  - [Installation](https://github.com/jbradley84/readme-generator/tree/main/dist#installation)
+  - [Usage](https://github.com/jbradley84/readme-generator/tree/main/dist#usage)
+  - [Contributing](https://github.com/jbradley84/readme-generator/tree/main/dist#contributing)
+  - [Tests](https://github.com/jbradley84/readme-generator/tree/main/dist#tests)
+  - [Questions](https://github.com/jbradley84/readme-generator/tree/main/dist#questions)
 
 
   ## Description
